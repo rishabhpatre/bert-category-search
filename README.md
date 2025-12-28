@@ -1,6 +1,6 @@
 # BERT-Based Semantic Category Search
 
-This repository implements a **BERT-based semantic category retrieval system** that maps free-text user queries to relevant business categories from a large, fixed taxonomy (JD-scale).
+This repository implements a **BERT-based semantic category retrieval system** that maps free-text user queries to relevant business categories from a large, fixed taxonomy.
 
 The goal of this project is to **showcase correct, production-oriented usage of BERT embeddings** for semantic search, while **intentionally avoiding LLM embeddings** where they are not required.
 
