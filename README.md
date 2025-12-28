@@ -152,3 +152,40 @@ These exclusions are intentional.
 and simple, explainable logic is used where business correctness matters.**
 
 This balance is deliberate and production-oriented.
+
+## Example Outputs
+
+Query: need someone to click photos at my wedding
+{'category': 'Wedding Photographers', 'score': 0.5685}
+{'category': 'Wedding Card Printers', 'score': 0.4527}
+{'category': 'Photographers', 'score': 0.4323}
+{'category': 'Photo Studios', 'score': 0.421}
+{'category': 'Wedding Bands', 'score': 0.394}
+
+Query: ac not cooling need urgent repair
+{'category': 'AC Repair & Services', 'score': 0.7415}
+{'category': 'Car AC Repair & Services', 'score': 0.6512}
+{'category': 'AC Repair & Services-Voltas', 'score': 0.4676}
+{'category': 'Ac Part Dealers', 'score': 0.3932}
+{'category': 'Second Hand AC Dealers', 'score': 0.3807}
+
+Query: looking for a doctor for heart problem
+{'category': 'Cardiac Hospitals', 'score': 0.6163}
+{'category': 'Cardiologists', 'score': 0.5414}
+{'category': 'Pulmonologists Doctors', 'score': 0.4196}
+{'category': 'On Call Doctor', 'score': 0.4167}
+{'category': 'ENT Doctors', 'score': 0.4126}
+
+Query: want to shift my house next week
+{'category': 'Packers And Movers (Within City)', 'score': 0.5785}
+{'category': 'Packers And Movers', 'score': 0.5464}
+{'category': 'Packers And Movers (All India)', 'score': 0.5231}
+{'category': 'Apartment Hotels', 'score': 0.2848}
+{'category': 'Home Delivery Restaurants', 'score': 0.2829}
+
+Query: need a hotel near airport for one night
+{'category': 'Hotels', 'score': 0.5533}
+{'category': 'Couple Friendly Hotels', 'score': 0.543}
+{'category': 'Apartment Hotels', 'score': 0.5243}
+{'category': '5 Star Hotels', 'score': 0.478}
+{'category': 'Institutes For Hotel Management', 'score': 0.4731}
